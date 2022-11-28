@@ -1,0 +1,1 @@
+This is my odin landing page project. My goal is to create the landing page of a website, using varous html and css elements and concepts, including flexbox, block and inline methods and basic html. I'll need to create 4 different sections on the website as well as a footer. 
