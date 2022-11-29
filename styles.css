@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-flow: column nowrap;
+}
+a{
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 18px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px 0px;
+}
+li{
+    display: inline;
+}
+
+/* Header css */
+.header{
+    background-color: #1F2937;
+    padding: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-link{
+    font-size: 24px;
+    color: #F9FAF8;
+    align-self: center;
+}
+
+/* Content 1 css */
+.content-one{
+    background-color: #1F2937;
+    display: flex;
+}
+.content-one-header{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+.content-one-text{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.content-one-button > button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #3882F6;
+}
+.content-two-header{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+/* Content 3 css */
+
+.content-three{
+    background-color: #E5E7EB;
+}
+.content-three-quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+/* Content 4 css */
+
+/* Footer css */
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
