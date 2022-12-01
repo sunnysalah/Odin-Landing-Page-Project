@@ -44,6 +44,7 @@ h1{
     min-height: 300px;
     justify-content: center; 
     flex: 1;
+    gap: 10px;
 }
 .content-one-header{
     font-size: 20px;
