@@ -62,6 +62,7 @@ h1{
     display: flex;
     flex-flow: column wrap;
     max-width: 400px; 
+    min-height: 200px;
     /* flex: 1; */
 }
 .content-one-image{
