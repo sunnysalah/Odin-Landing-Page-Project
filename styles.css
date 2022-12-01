@@ -76,6 +76,10 @@ h1{
     font-weight: extra-bold;
     color: #1F2937;
 }
+.content-two-media-image > img{
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
 
 /* Content 3 css */
 
