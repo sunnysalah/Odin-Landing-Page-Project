@@ -130,6 +130,26 @@ h1{
     background-color: #3882F6;
     display: flex;
     min-width: 800px;
+    padding: 20px 45px;
+}
+.content-four-card-words{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.content-four-card-button > button{
+    align-self: center;
+    border: 1px solid white;
+    padding: 5px 24px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+.content-four-card-header{
+    color: #E5E7EB;
+}
+.content-four-card-text{
+    color: lightgrey;
 }
 
 /* Footer css */
