@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-flow: column nowrap;
+    min-height: 100vh;
 }
 a{
     text-decoration: none;
@@ -41,6 +42,7 @@ h1{
     align-items: flex-start;
     min-height: 300px;
     justify-content: center; 
+    flex: 1;
 }
 .content-one-header{
     font-size: 20px;
@@ -71,8 +73,13 @@ h1{
     align-self: flex-start;
 }
 /* Content 2 css */
+.content-two{
+    flex: 1;
+    padding: 0px 200px 45px 200px;
+}
 .content-two-media{
     display: flex;
+    justify-content: space-evenly;
 }
 .content-two-header{
     font-size: 36px;
@@ -88,23 +95,38 @@ h1{
 .content-two-media-card{
     display: flex;
     flex-flow: column wrap;
+    max-width: 100px;
 }
 
 /* Content 3 css */
 
 .content-three{
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    flex: 1;
+    padding: 45px 320px 45px 320px;
 }
 .content-three-quote{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
 }
+.content-three-subquote{
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* Content 4 css */
+.content-four{
+    flex: 1;
+}
 
 /* Footer css */
 .footer{
+    display: flex;
     background-color: #1F2937;
     color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
