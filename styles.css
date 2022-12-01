@@ -130,7 +130,6 @@ h1{
 .content-four-card{
     background-color: #3882F6;
     display: flex;
-    min-width: 800px;
     padding: 35px 60px;
 }
 .content-four-card-words{
