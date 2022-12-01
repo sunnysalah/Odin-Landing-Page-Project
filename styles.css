@@ -122,6 +122,14 @@ h1{
 /* Content 4 css */
 .content-four{
     flex: 1;
+    padding: 45px 320px;
+    /* padding-left: 320px;
+    padding-right: 320px; */
+}
+.content-four-card{
+    background-color: #3882F6;
+    display: flex;
+    min-width: 800px;
 }
 
 /* Footer css */
