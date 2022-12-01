@@ -14,11 +14,14 @@ ul{
 li{
     display: inline;
 }
+h1{
+    margin: 0px;
+}
 
 /* Header css */
 .header{
     background-color: #1F2937;
-    padding: 0px 32px;
+    padding: 0px 312px;
     display: flex;
     justify-content: space-between;
 }
@@ -32,9 +35,15 @@ li{
 .content-one{
     background-color: #1F2937;
     display: flex;
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: flex-start;
+    min-height: 300px;
+    justify-content: center; 
 }
 .content-one-header{
-    font-size: 48px;
+    font-size: 20px;
     font-weight: extra-bold;
     color: #F9FAF8;
 }
@@ -46,7 +55,21 @@ li{
     background-color: #3882F6;
     color: #F9FAF8;
     border: #3882F6;
+    padding: 5px 24px;
+    border-radius: 8px;
 }
+.content-one-card{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 400px; 
+    /* flex: 1; */
+}
+.content-one-image{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+/* Content 2 css */
 .content-two-header{
     font-size: 36px;
     font-weight: extra-bold;
